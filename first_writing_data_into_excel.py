@@ -83,7 +83,7 @@ for rows in ws.iter_rows(min_row=2, max_row=11, min_col=2, max_col=3):
         cell.font = Font(bold=False, color="FFD700")
 
 # save workbook
-wb.save("Excel functions in python/ISU_Tuition_10Yrs.xlsx")
+wb.save("ISU_Tuition_10Yrs.xlsx")
 
 # Credits to College Tuition Compare website for the below data set.
 # URL:
